@@ -1,0 +1,191 @@
+/* -------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------*/
+/*-------------------------MOBILE FRIENDLY CSS STYLING------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+  
+@media only screen and (max-width: 425px) {
+    .header {
+        background-color: #2ecc71;
+    }
+
+    .left-nav {
+        margin-top: 20px;
+        margin-right: 10px;
+        float: none;
+        text-align: right;
+    }
+
+    .left-nav li {
+        margin-bottom: 20px;
+        border-bottom: 2px solid #2ecc71;
+    }
+    .logo {
+        margin-left: 10px;
+        height: 120px;
+        width: auto;
+    }
+
+    .company-title img {
+        width: 350px;
+        height: auto;
+        margin-left: 400px;
+        padding-top: 100px;
+        margin-top: 0; 
+    }
+
+    .company-title h3 {
+        font-size: 110%;
+        margin-left: 410px;
+        font-weight: 400;
+    }
+}
+
+/* ---------------------------- */
+/* FIRST SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .text-box {
+        margin-top: 10px;
+        font-size: 80%;
+    }
+
+    .first-section-pic img {
+        width: 400px;
+        height: auto;
+        padding: 0;
+    }
+}
+
+/* ---------------------------- */
+/* SECOND SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .text-box-2 h2 {
+        font-size: 200%;
+    }
+
+    .text-box-2 p {
+        font-size: 100%;
+    }
+
+    .text-box-2 img {
+        width: 300px;
+        height: auto;
+        padding-top: 20px;
+        margin-right: 100px;
+    }
+}
+
+/* ---------------------------- */
+/* THIRD SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .key-points {
+        padding-top: 0;
+        width: 400px;
+    }
+
+    .points-row {
+        width: 400px;
+    }
+
+    .third-title h2 {
+        padding-left: 0;
+    }
+
+    .third-title img {
+        display: none;
+    }
+
+    .three-main-points {
+        text-align: center;
+        width: 370px;
+    }
+    .three-main-points p {
+        font-size: 80%;
+        
+    }
+}
+
+/* ---------------------------- */
+/* FOURTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .drivers-shippers-section h4 {
+        text-align: center;
+    }
+
+    .drivers-shippers-section p {
+        text-align: center;
+    }
+
+    .drivers-shippers-section img {
+        width: 350px;
+        height: auto;
+        margin-left: 10px;
+    }
+
+    .learn-more-button {
+       margin-left: 100px;
+       margin-bottom: 10px;
+    }
+}
+
+/* ---------------------------- */
+/* FIFTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .our-team h1 {
+        text-align: center;
+    }
+
+    .our-team p {
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+
+    .executive-intro-card img {
+        margin-left: 10px;
+    }
+
+    .executive-intro-card h3 {
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}
+
+/* ---------------------------- */
+/* SIXTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .records-info h1 {
+        text-align: center;
+    }
+
+    .records-info p {
+        text-align: center;
+    }
+
+    .learn-more-button {
+        margin-top: 20px;
+    }
+}
+
+/* ---------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .site-footer {
+        padding-left: 20px;
+    }
+}

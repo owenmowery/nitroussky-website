@@ -1,0 +1,174 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f5f6fa;
+    color: #262626;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ---------------------------- */
+/* HEADINGS */
+/* ---------------------------- */
+
+h1, 
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/* ---------------------------- */
+/* HEADER */
+/* ---------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(img/specifying-services.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 25px;
+}
+
+.left-nav {
+    float: left;
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+
+.left-nav li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.left-nav li a:link,
+.left-nav li a:visited {
+    padding: 8px 0;
+    color: #ffffff;
+    font-weight: 300;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.left-nav li a:hover,
+.left-nav li a:active {
+    border-bottom: 2px solid #2ecc71;
+}
+
+.specifying-services-title {
+    margin-top: 8%;
+    margin-left: 25%;
+}
+
+.specifying-services-title h1 {
+    font-weight: 350;
+}
+
+/* ---------------------------- */
+/* FIRST SECTION */
+/* ---------------------------- */
+
+.deliver-ship {
+    margin-top: 14%;
+}
+
+.deliver-ship h3 {
+    font-size: 130%;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.deliver-ship p {
+    line-height: 150%;
+}
+
+.deliver-ship-img img {
+    width: 600px;
+    height: auto;
+    padding-left: 40px;
+}
+
+/* ---------------------------- */
+/* SECOND SECTION */
+/* ---------------------------- */
+
+.section-delivery {
+    padding: 0;
+}
+
+.delivery-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.delivery-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.delivery-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+.delivery-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: 199px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.delivery-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}

@@ -1,0 +1,207 @@
+/* -------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------*/
+/*-------------------------MOBILE FRIENDLY CSS STYLING------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+  
+@media only screen and (max-width: 425px) {
+    .header {
+        background-color: #2ecc71;
+    }
+
+    .left-nav {
+        margin-top: 20px;
+        margin-right: 10px;
+        float: none;
+        text-align: right;
+    }
+
+    .left-nav li {
+        margin-bottom: 20px;
+        border-bottom: 2px solid #2ecc71;
+    }
+    .logo {
+        margin-left: 10px;
+        height: 120px;
+        width: auto;
+    }
+}
+
+/* ---------------------------- */
+/* FIRST SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .sign-up-shipper {
+        width: 375px;
+    }
+
+    .sign-up-shipper h3 {
+        text-align: center;
+        padding-left: 50px;
+    }
+
+    .sign-up-shipper p {
+        text-align: center;
+        font-size: 110%;
+    }
+}
+
+/* ---------------------------- */
+/* SECOND SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .deliver-anytime h3 {
+        text-align: center;
+        font-size: 200%;
+    }
+
+    .deliver-anytime p {
+        text-align: center;
+        font-size: 120%;
+        padding-bottom: 40px;
+    }
+
+    .main-dashboard img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
+
+/* ---------------------------- */
+/* SECOND SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .cleaner-faster-cheaper {
+        padding-left: 10px;
+    }
+
+    .cleaner-faster-cheaper h3 {
+        font-size: 150%;
+        margin-top: 30px;
+        text-align: center;
+    }
+}
+
+/* ---------------------------- */
+/* THIRD SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .deliver-with-intelligence-col h3 {
+        text-align: center;
+    }
+
+    .deliver-with-intelligence-col p {
+        text-align: center;
+    }
+}
+
+/* ---------------------------- */
+/* FOURTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .how-it-works-h3 {
+        margin-left: 20px;
+    }
+
+    .how-it-works-p {
+        margin-left: 20px;
+    }
+
+    .driver-app-order-status img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+}
+
+/* ---------------------------- */
+/* FIFTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .service-h3 {
+        margin-left: 20px;
+    }
+
+    .service-p {
+        margin-left: 20px;
+    }
+
+    .driver-app-order-status img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 0;
+    }
+}
+
+/* ---------------------------- */
+/* SIXTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .ship-time-h3 {
+        margin-left: 20px;
+    }
+
+    .ship-time-p {
+        margin-left: 20px;
+    }
+
+    .driver-app-order-status img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+
+    .quotes-prices-p {
+        margin-left: 40px;
+    }
+
+    .what-info-support-img img {
+        height: 600px;
+        width: auto;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+}
+
+/* ---------------------------- */
+/* SEVENTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .nitrous-sky-quote-col h3 {
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .nitrous-sky-quote-col p {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+    .nitrous-sky-logo {
+        display: none;
+    }
+}
+
+/* ---------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .site-footer {
+        padding-left: 20px;
+    }
+}

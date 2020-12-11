@@ -1,0 +1,487 @@
+/* BASIC SETUP */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #f5f6fa;
+    color: #262626;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------- */
+/* REUSEABLE COMPONENTS */
+/* ---------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ---------------------------- */
+/* HEADINGS */
+/* ---------------------------- */
+
+h1, 
+h2,
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+/* ---------------------------- */
+/* HEADER */
+/* ---------------------------- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/ship-with-us.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-top: 25px;
+}
+
+.right-nav {
+    float: right;
+    list-style: none;
+    margin-top: 60px;
+}
+
+.right-nav li {
+    display: inline-block;
+    margin-left: 0px;
+}
+
+.right-nav li a:link,
+.right-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.right-nav li a:hover,
+.right-nav li a:active {
+    border-bottom: 2px solid #2ecc71;
+}
+
+.left-nav {
+    float: left;
+    list-style: none;
+    margin-top: 60px;
+    margin-left: 5%;
+}
+
+.left-nav li {
+    display: inline-block;
+    margin-left: 80px;
+}
+
+.left-nav li a:link,
+.left-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.left-nav li a:hover,
+.left-nav li a:active {
+    border-bottom: 2px solid #2ecc71;
+}
+
+.sign-up-shipper {
+    margin-top: 8%;
+    color: #fff;
+    width: 500px;
+}
+
+.sign-up-shipper h3 {
+    font-size: 200%;
+    font-weight: 400;
+    padding: 20px 20px;
+    
+}
+.sign-up-shipper p {
+    font-size: 120%;
+    color: white;
+    font-weight: 300;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    
+}
+
+/* ---------------------------- */
+/* SHIPPER */
+/* ---------------------------- */
+
+.deliver-anytime {
+    margin-top: 100px;
+}
+.deliver-anytime h3 {
+    color: #000000;
+    font-size: 200%;
+    margin-bottom: 10%;
+}
+
+.deliver-anytime p {
+    color: #000000;
+    font-size: 120%;
+}
+
+.main-dashboard img {
+    height: 700px;
+    width: auto;
+    margin-left: 100px;
+}
+
+.cleaner-faster-cheaper {
+    background-color: #2ecc71;
+}
+
+.cleaner-faster-cheaper h3 {
+    color: #262626;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.cleaner-faster-cheaper p {
+    margin-top: 10px;
+    line-height: 150%;
+    font-weight: 375;
+}
+
+.cleaner-faster-cheaper li {
+    margin-top: 10px;
+    line-height: 150%;
+}
+
+/* ---------------------------- */
+/* Deliver with intelligence */
+/* ---------------------------- */
+
+.deliver-with-intelligence {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/drone.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.deliver-with-intelligence-col {
+    margin-top: 10%;
+}
+
+.deliver-with-intelligence h3 {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 250%;
+    margin-bottom: 10%;
+}
+
+.deliver-with-intelligence p {
+    color: #ffffff;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+/* ---------------------------- */
+/* Deliver with intelligence */
+/* ---------------------------- */
+
+.how-it-works-h3 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+
+.how-it-works-p {
+    margin-bottom: 50px;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.what-info-support-p {
+    margin-left: 60px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.what-info-support-h3 {
+    color: #000000;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.driver-app-order-status img {
+    height: 800px;
+    width: auto;
+    margin-left: 100px;
+}
+
+/* ---------------------------- */
+/* Ship your way */
+/* ---------------------------- */
+
+.service-row {
+    background-color: #2ecc71;
+}
+.service-h3 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+.service-p {
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.carriers-protected-h3 {
+    color: #000000;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.carriers-protected-p {
+    color: #000000;
+    margin-left: 60px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+/* ---------------------------- */
+/* Prices and quotes */
+/* ---------------------------- */
+
+.ship-time-h3 {
+    color: #000000;
+    font-weight: 400;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+.ship-time-p {
+    color: #000000;
+    margin-bottom: 50px;
+    font-size: 120%;
+    line-height: 150%;
+}
+
+.quotes-prices-h3 {
+    color: #000000;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.quotes-prices-p {
+    color: #000000;
+    margin-left: 60px;
+    margin-top: 30px;
+    line-height: 150%;
+}
+
+.what-info-support-img img {
+    height: 800px;
+    width: auto;
+    margin-left: 100px;
+}
+
+/* ---------------------------- */
+/* Nitrous Sky quote */
+/* ---------------------------- */
+
+.nitrous-sky-quote {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url(img/efficiency.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.nitrous-sky-quote div {
+    margin-top: 7%;
+}
+
+.nitrous-sky-quote h3 {
+    color: #ffffff;
+    padding-bottom: 10%;
+    font-weight: 400;
+    font-size: 150%;
+    padding-bottom: 30px;
+}
+
+.nitrous-sky-quote p {
+    color: #ffffff;
+    line-height: 150%;
+}
+
+.nitrous-sky-logo {
+    height: 350px;
+    width: auto;
+    margin-left: 12%;
+}
+
+/* ---------------------------- */
+/* Footer */
+/* ---------------------------- */
+
+.facebook-logo {
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+  }
+  
+  .linkedin-logo {
+    width: 60px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  
+  .insta-logo {
+    width: 55px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links-2 {
+  display: block;
+  list-style: none;
+}
+.footer-links li
+{
+ display: inline;
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+
+
+
+

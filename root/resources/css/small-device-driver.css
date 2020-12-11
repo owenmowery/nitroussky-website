@@ -1,0 +1,204 @@
+/* -------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------*/
+/*-------------------------MOBILE FRIENDLY CSS STYLING------------------------*/
+/* ---------------------------------------------------------------------------*/
+/* ---------------------------------------------------------------------------*/
+  
+@media only screen and (max-width: 425px) {
+    .header {
+        background-color: #2ecc71;
+    }
+
+    .left-nav {
+        margin-top: 20px;
+        margin-right: 10px;
+        float: none;
+        text-align: right;
+    }
+
+    .left-nav li {
+        margin-bottom: 20px;
+        border-bottom: 2px solid #2ecc71;
+    }
+    .logo {
+        margin-left: 10px;
+        height: 120px;
+        width: auto;
+    }
+
+    .sign-up-drive {
+        margin-top: 90px;
+        padding: 0;
+    }
+    .sign-up-drive h3 {
+        text-align: center;
+    }
+
+    .sign-up-drive p {
+        font-size: 120%;
+        text-align: center;
+    }
+}
+
+/* ---------------------------- */
+/* FIRST SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .drive-with-us {
+        width: 375px;
+    }
+
+    .sign-up h2 {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .sign-up p {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    .sign-up-img img {
+        width: 300px;
+        height: auto;
+        align-content: center;
+        padding-right: 20px;
+    }
+}
+
+/* ---------------------------- */
+/* SECOND SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .earnings-text {
+        margin-top: 0;
+    }
+
+    .earnings-img img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        padding-left: 40px;
+        margin-left: 0;
+    }
+}
+
+/* ---------------------------- */
+/* THIRD SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .simpler-way-to-earn {
+        padding-left: 10px;
+    }
+
+    .simpler-way-to-earn h3 {
+        margin-top: 30px;
+    }
+}
+
+/* ---------------------------- */
+/* FOURTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .platform-info h3 {
+        text-align: center;
+    }
+
+    .platform-info p {
+        text-align: center;
+    }
+
+    .phone-photo img {
+        width: 350px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+}
+
+/* ---------------------------- */
+/* FIFTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .efficiency-text-h3 {
+        padding-left: 10px;
+    }
+
+    .efficiency-text-p {
+        padding-left: 10px;
+    }
+
+    .driver-app-book img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .driver-app-map {
+        text-align: center;
+    }
+
+    .driver-app-map img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+}
+
+/* ---------------------------- */
+/* SIXTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .world-of-delivery-col h3 {
+        font-size: 170%;
+        padding-left: 30px;
+    }
+
+    .world-of-delivery-col p {
+        font-size: 120%;
+        padding-left: 30px;
+    }
+}
+
+/* ---------------------------- */
+/* SEVENTH SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .provide-feedback h3 {
+        font-size: 150%;
+        text-align: center;
+    }
+
+    .provide-feedback p {
+        font-size: 100%;
+        text-align: center;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .feedback-img img {
+        height: 600px;
+        width: auto;
+        margin-top: 40px;
+        margin-left: 40px;
+        
+    }
+}
+
+/* ---------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------- */
+
+@media only screen and (max-width: 425px) {
+    .site-footer {
+        padding-left: 20px;
+    }
+}
