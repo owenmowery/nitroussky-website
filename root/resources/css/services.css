@@ -133,13 +133,28 @@ header {
     height: auto;
     padding-left: 40px;
 }
-
 /* ---------------------------- */
 /* SECOND SECTION */
 /* ---------------------------- */
 
+.what-we-ship h3 {
+    font-size: 130%;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.what-we-ship p {
+    font-weight: 300;
+    line-height: 150%;
+}
+
+/* ---------------------------- */
+/* THIRD SECTION */
+/* ---------------------------- */
+
 .section-delivery {
-    padding: 0;
+    padding-top: 0;
 }
 
 .delivery-showcase {
