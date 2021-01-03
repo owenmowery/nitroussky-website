@@ -61,7 +61,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5)), url(img/specifying-services.jpg);
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 70vh;
 }
 
 .logo {
@@ -101,12 +101,12 @@ header {
 }
 
 .specifying-services-title {
-    margin-top: 8%;
-    margin-left: 25%;
+    margin-top: 6%;
+    margin-left: 38%;
 }
 
 .specifying-services-title h1 {
-    font-weight: 350;
+    font-weight: 370;
 }
 
 /* ---------------------------- */
@@ -154,7 +154,8 @@ header {
 /* ---------------------------- */
 
 .section-delivery {
-    padding-top: 0;
+    padding-top: 5%;
+    margin-bottom: 25%;
 }
 
 .delivery-showcase {
@@ -187,3 +188,271 @@ header {
     opacity: 1;
     transform: scale(1.03);
 }
+
+/* ---------------------------- */
+/* Business SECTION */
+/* ---------------------------- */
+
+.business-delivery {
+    margin-top: 12%;
+}
+
+.business-delivery h3 {
+    color: #000000;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.business-delivery p {
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.service-business-img {
+    width: 600px;
+    height: auto;
+}
+
+/* ---------------------------- */
+/* Consumer SECTION */
+/* ---------------------------- */
+
+.consumer-delivery {
+    margin-top: 8%;
+    padding-left: 5%;
+}
+
+.consumer-delivery h3 {
+    color: #000000;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.consumer-delivery p {
+    padding-top: 20px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.service-consumer-img {
+    width: 600px;
+    height: auto;
+    padding-right: 8%;
+}
+
+/* ---------------------------- */
+/* Cases SECTION */
+/* ---------------------------- */
+
+.flexible-options {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), url(img/shipping-options.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+}
+
+.shipping-options {
+    width: 800px;
+    padding-top: 5%;
+}
+
+.shipping-options h3 {
+    color: #ffffff;
+    font-size: 150%;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.shipping-options li {
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn {
+    
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+  }
+
+.services-button {
+    margin-top: 15px;
+}
+
+  .services-button:link,
+  .services-button:visited {
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+    color: #fff;
+  }
+  
+  .services-button:hover,
+  .services-button:active {
+    border: 1px solid #2ecc71;
+    background-color: #2ecc71;
+  }
+
+  /* ---------------------------- */
+/* Pricing SECTION */
+/* ---------------------------- */
+
+.pricing-col h3 {
+    color: #000000;
+    font-size: 130%;
+    font-weight: 400;
+}
+
+.recurring-col {
+    width: 900px;
+}
+
+.recurring-col p {
+    padding: 20px;
+
+}
+
+/* ---------------------------- */
+/* FOOTER SECTION */
+/* ---------------------------- */
+
+.facebook-logo {
+    width: 40px;
+    height: auto;
+    padding-top: 10px;
+  }
+  
+  .linkedin-logo {
+    width: 60px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  
+  .insta-logo {
+    width: 55px;
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  
+  .google-play-logo {
+    width: 170px;
+    height: auto;
+    padding-left: 0;
+  }
+  
+  .app-store-logo {
+    width: 155px;
+    height: auto;
+    padding: 10px;
+  }
+  
+  .yelp-logo {
+    width: 50px;
+    height: auto;
+    padding-left: 15px;
+  }
+  
+  .site-footer
+  {
+    background-color:#26272b;
+    padding:45px 0 20px;
+    font-size:15px;
+    line-height:24px;
+    color:#737373;
+  }
+  .site-footer hr
+  {
+    border-top-color:#bbb;
+    opacity:0.5
+  }
+  .site-footer hr.small
+  {
+    margin:20px 0
+  }
+  .site-footer h6
+  {
+    color:#fff;
+    font-size:16px;
+    text-transform:uppercase;
+    margin-top:5px;
+    letter-spacing:2px
+  }
+  .site-footer a
+  {
+    color:#737373;
+  }
+  .site-footer a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links
+  {
+    padding-left:0;
+    list-style:none
+  }
+  
+  .footer-links-2 {
+    display: block;
+    list-style: none;
+  }
+  .footer-links li
+  {
+   display: inline;
+  }
+  .footer-links a
+  {
+    color:#737373
+  }
+  .footer-links a:active,.footer-links a:focus,.footer-links a:hover
+  {
+    color:#3366cc;
+    text-decoration:none;
+  }
+  .footer-links.inline li
+  {
+    display:inline-block
+  }
+  .site-footer .social-icons
+  {
+    text-align:right
+  }
+  .site-footer .social-icons a
+  {
+    width:40px;
+    height:40px;
+    line-height:40px;
+    margin-left:6px;
+    margin-right:0;
+    border-radius:100%;
+    background-color:#33353d
+  }
+  .copyright-text
+  {
+    margin:0
+  }
+  @media (max-width:991px)
+  {
+    .site-footer [class^=col-]
+    {
+      margin-bottom:30px
+    }
+  }
+  @media (max-width:767px)
+  {
+    .site-footer
+    {
+      padding-bottom:0
+    }
+    .site-footer .copyright-text,.site-footer .social-icons
+    {
+      text-align:center
+    }
+  }

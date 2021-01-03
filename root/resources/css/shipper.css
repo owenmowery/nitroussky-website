@@ -369,7 +369,7 @@ header {
     width: 40px;
     height: auto;
     padding-top: 10px;
-  }
+    }
   
   .linkedin-logo {
     width: 60px;
@@ -383,6 +383,18 @@ header {
     height: auto;
     padding-left: 15px;
     padding-top: 10px;
+  }
+
+  .google-play-logo {
+    width: 170px;
+    height: auto;
+    padding-left: 0;
+  }
+  
+  .app-store-logo {
+    width: 155px;
+    height: auto;
+    padding: 10px;
   }
 
 .site-footer
