@@ -107,7 +107,7 @@ header {
 
 .left-nav li {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 60px;
 }
 
 .left-nav li a:link,
@@ -124,6 +124,33 @@ header {
 .left-nav li a:hover,
 .left-nav li a:active {
     border-bottom: 2px solid #000000;
+}
+
+.signup-button {
+  padding: 10px;
+}
+
+.signup-button:link,
+.signup-button:visited {
+    background-color: #000000;
+    border: 1px solid #2ecc71;
+    color: #fff;
+}
+
+.signup-button:hover,
+.signup-button:active {
+    border: 1px solid #5b635f;
+    background-color: #5b635f;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 .contact-us-title h3 {

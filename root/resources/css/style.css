@@ -75,12 +75,12 @@ header {
     float: left;
     list-style: none;
     margin-top: 60px;
-    margin-left: 5%;
+    margin-left: 0;
 }
 
 .left-nav li {
     display: inline-block;
-    margin-left: 80px;
+    margin-left: 70px;
 }
 
 .left-nav li a:link,
@@ -97,6 +97,23 @@ header {
 .left-nav li a:hover,
 .left-nav li a:active {
     border-bottom: 2px solid #2ecc71;
+}
+
+.signup-button {
+  padding: 10px;
+}
+
+.signup-button:link,
+.signup-button:visited {
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+    color: #fff;
+}
+
+.signup-button:hover,
+.signup-button:active {
+    border: 1px solid #27ae60;
+    background-color: #27ae60;
 }
 
 .company-title {
