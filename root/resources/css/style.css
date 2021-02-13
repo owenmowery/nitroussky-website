@@ -74,13 +74,13 @@ header {
 .left-nav {
     float: left;
     list-style: none;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 0;
 }
 
 .left-nav li {
     display: inline-block;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .left-nav li a:link,
