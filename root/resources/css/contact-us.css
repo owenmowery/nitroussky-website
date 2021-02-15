@@ -153,7 +153,15 @@ header {
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
-.contact-us-title h3 {
+.contact-us-box {
+  height: 500px;
+  width: 400px;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.contact-us-box h3 {
+  color: #000000;
   font-size: 150%;
   font-weight: 400;
   margin-left: 60px;
@@ -162,7 +170,7 @@ header {
   line-height: 50px;
 }
 
-.contact-us-title a {
+.contact-us-box a {
   text-decoration: none;
   font-size: 170%;
   color: #f5f6fa;
