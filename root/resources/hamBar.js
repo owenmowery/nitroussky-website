@@ -1,17 +1,20 @@
-let navbar = document.querySelector(".navbar");
-let ham = document.querySelector(".ham");
+var navbar = document.querySelector(".navbar")
+var ham = document.querySelector(".ham")
 
-function toggleHamburger() {
-    navbar.classList.toggle("showNav")
-    ham.classList.toggle("showClose")
+// toggles hamburger menu in and out when clicking on the hamburger
+function toggleHamburger(){
+  navbar.classList.toggle("showNav")
+  ham.classList.toggle("showClose")
 }
-if (navbar){
-    ham.addEventListener("click", toggleHamburger);
-}
-var menuLinks = document.querySelectorAll(".menuLink");
 
-menuLinks.forEach(
-    function(menuLink) {
-        menuLink.addEventListener("click", toggleHamburger)
-    }
+ham.addEventListener("click", toggleHamburger)
+
+// toggle when clicking on links
+
+// METHOD 1
+var menuLinks = document.querySelectorAll(".menuLink")
+menuLinks.forEach( 
+  function(menuLink) { 
+    menuLink.addEventListener("click", toggleHamburger) 
+  }
 )
